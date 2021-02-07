@@ -1,0 +1,141 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.profile {
+  display: inline-block;
+}
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.profileEvents {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid #eeeeee;
+}
+.preloader {
+  font-size: 48px;
+  margin: auto;
+  vertical-align: middle;
+  top: 44%;
+  position: absolute;
+}
+.alertify {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: #2f3d46;
+}
+.alertify .dialog {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  padding: 12px;
+  transform: translateY(-50%);
+  width: 400px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.14),
+    0 4px 5px 0 rgba(0, 0, 0, 0.098), 0 1px 10px 0 rgba(0, 0, 0, 0.084);
+}
+.alertify .dialog .msg {
+  padding: 12px;
+  margin-bottom: 12px;
+  margin: 0;
+  text-align: left;
+}
+.alertify .dialog button {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  position: relative;
+  outline: 0;
+  border: 0;
+  display: inline-block;
+  align-items: center;
+  padding: 0 6px;
+  margin: 6px 8px;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+  min-width: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.profile {
+  background: #fafafa;
+  width: 22%;
+  margin: 10px;
+}
+
+.profile .images-icon img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.profile .images-icon {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.profile .details {
+  background: #fff;
+  padding: 10px 10px;
+  border: 1px solid #ededed;
+  border-bottom: 0;
+}
+
+.profileEvents span {
+  padding: 5px 10px;
+  display: inline-block;
+  margin: auto;
+  border-right: 1px solid #eeeeee;
+  width: 33.33%;
+  text-align: center;
+}
+
+.profileEvents span svg,
+.profileEvents span svg path,
+.profileEvents span circle {
+  fill: #898989;
+}
+
+.profileEvents span svg:hover,
+.profileEvents span svg path:hover,
+.profileEvents span circle:hover {
+  fill: #ff0000;
+}
+
+.profileEvents span:last-child {
+  border: 0;
+}
+
+.details h5 {
+  margin: 10px 0px 10px 0px;
+}
+
+.details-para {
+  color: #7f8182;
+  font-size: 14px;
+}
+
+.details-para svg {
+  padding-right: 10px;
+}
